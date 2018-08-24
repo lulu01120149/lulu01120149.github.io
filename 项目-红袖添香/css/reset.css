@@ -1,0 +1,29 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:rgb(255,245,245);
+}
+ul{ 
+	list-style:none; 
+}
+a { 
+	text-decoration:none; 
+}
+button, input, select, textarea { 
+	border: none;
+	outline: none;
+ }
+table { 
+	border-collapse:collapse; border-spacing:0; 
+} 
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
